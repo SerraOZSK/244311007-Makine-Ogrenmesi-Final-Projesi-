@@ -1,0 +1,86 @@
+Outer Fold;Model;Params;accuracy;precision;recall;f1
+Fold 1;KNN;{'n_neighbors': 3};0.62;0.63;0.67;0.65
+Fold 1;KNN;{'n_neighbors': 4};0.61;0.67;0.52;0.59
+Fold 1;KNN;{'n_neighbors': 5};0.63;0.64;0.69;0.66
+Fold 1;KNN;{'n_neighbors': 6};0.63;0.67;0.58;0.62
+Fold 1;KNN;{'n_neighbors': 7};0.64;0.64;0.70;0.67
+Fold 1;KNN;{'n_neighbors': 8};0.64;0.67;0.61;0.64
+Fold 1;KNN;{'n_neighbors': 9};0.64;0.65;0.71;0.68
+Fold 1;KNN;{'n_neighbors': 10};0.64;0.67;0.64;0.65
+Fold 1;KNN;{'n_neighbors': 11};0.65;0.65;0.72;0.68
+Fold 1;MLP;{'hidden_layer_sizes': (50,), 'activation': 'relu'};0.72;0.72;0.76;0.74
+Fold 1;MLP;{'hidden_layer_sizes': (50,), 'activation': 'tanh'};0.71;0.71;0.76;0.74
+Fold 1;MLP;{'hidden_layer_sizes': (100,), 'activation': 'relu'};0.72;0.74;0.71;0.73
+Fold 1;MLP;{'hidden_layer_sizes': (100,), 'activation': 'tanh'};0.71;0.73;0.74;0.73
+Fold 1;LinearSVC;{'C': 0.1};0.64;0.64;0.75;0.69
+Fold 1;LinearSVC;{'C': 1};0.64;0.64;0.75;0.69
+Fold 1;LinearSVC;{'C': 10};0.64;0.64;0.75;0.69
+Fold 1;XGBClassifier;{'default': True};0.72;0.73;0.74;0.74
+Fold 2;KNN;{'n_neighbors': 3};0.62;0.63;0.67;0.65
+Fold 2;KNN;{'n_neighbors': 4};0.61;0.66;0.52;0.59
+Fold 2;KNN;{'n_neighbors': 5};0.63;0.64;0.69;0.66
+Fold 2;KNN;{'n_neighbors': 6};0.62;0.67;0.58;0.62
+Fold 2;KNN;{'n_neighbors': 7};0.64;0.64;0.70;0.67
+Fold 2;KNN;{'n_neighbors': 8};0.63;0.66;0.61;0.64
+Fold 2;KNN;{'n_neighbors': 9};0.64;0.64;0.71;0.67
+Fold 2;KNN;{'n_neighbors': 10};0.64;0.66;0.63;0.65
+Fold 2;KNN;{'n_neighbors': 11};0.64;0.64;0.72;0.68
+Fold 2;MLP;{'hidden_layer_sizes': (50,), 'activation': 'relu'};0.71;0.72;0.73;0.73
+Fold 2;MLP;{'hidden_layer_sizes': (50,), 'activation': 'tanh'};0.71;0.72;0.75;0.73
+Fold 2;MLP;{'hidden_layer_sizes': (100,), 'activation': 'relu'};0.71;0.73;0.73;0.73
+Fold 2;MLP;{'hidden_layer_sizes': (100,), 'activation': 'tanh'};0.71;0.73;0.72;0.72
+Fold 2;LinearSVC;{'C': 0.1};0.64;0.64;0.73;0.68
+Fold 2;LinearSVC;{'C': 1};0.64;0.64;0.73;0.68
+Fold 2;LinearSVC;{'C': 10};0.64;0.64;0.73;0.68
+Fold 2;XGBClassifier;{'default': True};0.71;0.73;0.73;0.73
+Fold 3;KNN;{'n_neighbors': 3};0.61;0.63;0.66;0.64
+Fold 3;KNN;{'n_neighbors': 4};0.61;0.67;0.52;0.58
+Fold 3;KNN;{'n_neighbors': 5};0.63;0.64;0.68;0.66
+Fold 3;KNN;{'n_neighbors': 6};0.62;0.66;0.57;0.62
+Fold 3;KNN;{'n_neighbors': 7};0.63;0.64;0.70;0.67
+Fold 3;KNN;{'n_neighbors': 8};0.63;0.66;0.61;0.63
+Fold 3;KNN;{'n_neighbors': 9};0.64;0.64;0.71;0.67
+Fold 3;KNN;{'n_neighbors': 10};0.63;0.66;0.63;0.65
+Fold 3;KNN;{'n_neighbors': 11};0.64;0.64;0.72;0.68
+Fold 3;MLP;{'hidden_layer_sizes': (50,), 'activation': 'relu'};0.71;0.71;0.74;0.73
+Fold 3;MLP;{'hidden_layer_sizes': (50,), 'activation': 'tanh'};0.70;0.70;0.77;0.73
+Fold 3;MLP;{'hidden_layer_sizes': (100,), 'activation': 'relu'};0.71;0.72;0.73;0.72
+Fold 3;MLP;{'hidden_layer_sizes': (100,), 'activation': 'tanh'};0.70;0.70;0.76;0.73
+Fold 3;LinearSVC;{'C': 0.1};0.64;0.64;0.73;0.68
+Fold 3;LinearSVC;{'C': 1};0.64;0.64;0.73;0.68
+Fold 3;LinearSVC;{'C': 10};0.64;0.64;0.73;0.68
+Fold 3;XGBClassifier;{'default': True};0.71;0.72;0.73;0.72
+Fold 4;KNN;{'n_neighbors': 3};0.61;0.62;0.67;0.64
+Fold 4;KNN;{'n_neighbors': 4};0.61;0.66;0.52;0.58
+Fold 4;KNN;{'n_neighbors': 5};0.62;0.63;0.69;0.66
+Fold 4;KNN;{'n_neighbors': 6};0.62;0.66;0.58;0.62
+Fold 4;KNN;{'n_neighbors': 7};0.63;0.64;0.70;0.67
+Fold 4;KNN;{'n_neighbors': 8};0.63;0.66;0.61;0.64
+Fold 4;KNN;{'n_neighbors': 9};0.64;0.64;0.71;0.67
+Fold 4;KNN;{'n_neighbors': 10};0.63;0.66;0.64;0.65
+Fold 4;KNN;{'n_neighbors': 11};0.64;0.64;0.72;0.68
+Fold 4;MLP;{'hidden_layer_sizes': (50,), 'activation': 'relu'};0.71;0.72;0.73;0.73
+Fold 4;MLP;{'hidden_layer_sizes': (50,), 'activation': 'tanh'};0.71;0.72;0.72;0.72
+Fold 4;MLP;{'hidden_layer_sizes': (100,), 'activation': 'relu'};0.71;0.72;0.73;0.73
+Fold 4;MLP;{'hidden_layer_sizes': (100,), 'activation': 'tanh'};0.70;0.69;0.78;0.73
+Fold 4;LinearSVC;{'C': 0.1};0.64;0.64;0.73;0.68
+Fold 4;LinearSVC;{'C': 1};0.64;0.64;0.73;0.68
+Fold 4;LinearSVC;{'C': 10};0.64;0.64;0.73;0.68
+Fold 4;XGBClassifier;{'default': True};0.71;0.72;0.73;0.73
+Fold 5;KNN;{'n_neighbors': 3};0.61;0.63;0.66;0.64
+Fold 5;KNN;{'n_neighbors': 4};0.61;0.66;0.52;0.58
+Fold 5;KNN;{'n_neighbors': 5};0.62;0.63;0.68;0.65
+Fold 5;KNN;{'n_neighbors': 6};0.62;0.66;0.57;0.61
+Fold 5;KNN;{'n_neighbors': 7};0.63;0.64;0.69;0.66
+Fold 5;KNN;{'n_neighbors': 8};0.63;0.66;0.60;0.63
+Fold 5;KNN;{'n_neighbors': 9};0.63;0.64;0.70;0.67
+Fold 5;KNN;{'n_neighbors': 10};0.63;0.66;0.63;0.64
+Fold 5;KNN;{'n_neighbors': 11};0.64;0.64;0.71;0.67
+Fold 5;MLP;{'hidden_layer_sizes': (50,), 'activation': 'relu'};0.71;0.73;0.72;0.73
+Fold 5;MLP;{'hidden_layer_sizes': (50,), 'activation': 'tanh'};0.71;0.71;0.75;0.73
+Fold 5;MLP;{'hidden_layer_sizes': (100,), 'activation': 'relu'};0.71;0.71;0.75;0.73
+Fold 5;MLP;{'hidden_layer_sizes': (100,), 'activation': 'tanh'};0.71;0.72;0.73;0.73
+Fold 5;LinearSVC;{'C': 0.1};0.64;0.64;0.73;0.68
+Fold 5;LinearSVC;{'C': 1};0.64;0.64;0.73;0.68
+Fold 5;LinearSVC;{'C': 10};0.64;0.64;0.73;0.68
+Fold 5;XGBClassifier;{'default': True};0.71;0.72;0.73;0.73

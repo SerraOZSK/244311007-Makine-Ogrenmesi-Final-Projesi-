@@ -1,0 +1,6 @@
+Outer Fold;Model;Best Params;Accuracy;Precision;Recall;F1 Score;ROC-AUC
+Fold 1;XGBClassifier;{'default': True};0.7229;0.736321688;0.740365496;0.738338055;0.800360849
+Fold 2;XGBClassifier;{'default': True};0.71215;0.725964252;0.730707319;0.728328064;0.788273773
+Fold 3;XGBClassifier;{'default': True};0.7134;0.726352301;0.733642647;0.729979273;0.787354776
+Fold 4;XGBClassifier;{'default': True};0.71485;0.729262999;0.731679606;0.730469304;0.792644997
+Fold 5;MLPClassifier;{'hidden_layer_sizes': (50,), 'activation': 'relu'};0.71595;0.711061143;0.778451051;0.743231638;0.791818361
